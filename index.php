@@ -13,7 +13,7 @@
 					<div class="left-column hero-section--myblog">
 						<h1 class="hero-heading">This is <span>MyBlog </span>to tell you <span>success</span> stories.</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum recusandae consequatur debitis laudantium, deserunt animi.</p>
-						<button class="button">view blogs</button>
+						<a class="button hero-btn" role="button">view blogs</a>
 					</div>
 					<div class="hero-section--myblog--img">
 						<img src="assets/images/section-img-hero.svg" alt="myblog hero image" class="section-img">
@@ -33,9 +33,9 @@
 				</div>
 
 				<!-- single-post -->
-				<div class="blog-post single-blog">
+				<a href="blog.php" class="blog-post single-blog">
 					<div class="even-columns single-post">
-						<div class="blog-media"></div>
+						<div class="blog-media blog-media--01"></div>
 						<div class="blog-details">
 							<h3 class="blog-article--title">Programming requires a unique set of skills</h3>
 							<div class="blog-article--info">
@@ -47,17 +47,17 @@
 								<span class="post_author_name">Hasan Hira </span>
 							</div>
 							<p class="blog-article--text">
-								Programming is the process of designing, coding, testing, and debugging software or applications. It is an essential skill in today's world, as it is used in many different industries and applications. <a class="button read-more-btn" href="#">Read more</a>
+								Programming is the process of designing, coding, testing, and debugging software or applications. It is an essential skill in today's world, as it is used in many different industries and applications.
 							</p>
 						</div>
 					</div>
-				</div>
+				</a>
 				
 
 				<!-- single-post -->
-				<div class="blog-post single-blog">
+				<a href="blog.php" class="blog-post single-blog">
 					<div class="even-columns single-post">
-						<div class="blog-media"></div>
+						<div class="blog-media blog-media--02"></div>
 						<div class="blog-details">
 							<h3 class="blog-article--title">Programming requires a unique set of skills</h3>
 							<div class="blog-article--info">
@@ -69,16 +69,16 @@
 								<span class="post_author_name">Hasan Hira </span>
 							</div>
 							<p class="blog-article--text">
-								Programming is the process of designing, coding, testing, and debugging software or applications. It is an essential skill in today's world, as it is used in many different industries and applications. <a class="button read-more-btn" href="#">Read more</a>
+								Programming is the process of designing, coding, testing, and debugging software or applications. It is an essential skill in today's world, as it is used in many different industries and applications.
 							</p>
 						</div>
 					</div>
-				</div>
+				</a>
 
 				<!-- single-post -->
-				<div class="blog-post single-blog">
+				<a href="blog.php" class="blog-post single-blog">
 					<div class="even-columns single-post">
-						<div class="blog-media"></div>
+						<div class="blog-media blog-media--03"></div>
 						<div class="blog-details">
 							<h3 class="blog-article--title">Programming requires a unique set of skills</h3>
 							<div class="blog-article--info">
@@ -90,11 +90,11 @@
 								<span class="post_author_name">Hasan Hira </span>
 							</div>
 							<p class="blog-article--text">
-								Programming is the process of designing, coding, testing, and debugging software or applications. It is an essential skill in today's world, as it is used in many different industries and applications. <a class="button read-more-btn" href="#">Read more</a>
+								Programming is the process of designing, coding, testing, and debugging software or applications. It is an essential skill in today's world, as it is used in many different industries and applications.
 							</p>
 						</div>
 					</div>
-				</div>
+				</a>
 
 			</div>
 		</section>
