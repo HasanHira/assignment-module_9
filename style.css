@@ -665,19 +665,22 @@ span.post_author_name {
 footer {
     background: hsl(var(--accent-color-900));
 }
+
 .footer--area {
-    display: flex;
+    display: grid;
     padding-block: 1em;
-    justify-content: space-between;
-    align-items: center;
+    align-content: center;
+    justify-items: center;
 }
 .footer-logo {
     width: 35%;
+    margin-bottom: 0.5rem;
 }
 
 .copy-rights p {
     color: hsl(var(--neutral-color-100));
-    font-size: 0.5rem;
+    font-size: 0.75rem;
+    margin-bottom: 0.3rem;
 }
 .socila-media--footer {
     width: 15%;
@@ -689,10 +692,10 @@ footer {
 }
 .share-link li a,
 .social-list li a {
-    width: 1em;
+    width: 1.5em;
     aspect-ratio: 1;
     display: inline-flex;
-    padding: 0.1em;
+    padding: 0.3em;
     border: 2px solid hsl(var(--accent-color-400), 0.6);
     background: transparent;
     justify-content: center;
