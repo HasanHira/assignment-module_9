@@ -598,12 +598,10 @@ span.post_author_name {
 }
 
 /*********** 4.4 Contact area ***********/
-.contact-page {}
+
 .contact-details-text {
     margin-block: auto;
 }
-.contact-details-text p {}
-.contact-details-text p span {}
 
 .contact-details-text p span {
     display: block;
