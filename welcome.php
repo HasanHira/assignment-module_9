@@ -1,31 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Html Code blocks are navigation purpose only. -->
+<?php
+	$page_title = "Welcome Page";
+	include "assets/inc/header-area.php";
+?>
 
+<!-- main start -->
+<main>
+
+    <section class="page-head">
+        <div class="container">
+            <h1 class="hero-heading"><?php echo $page_title; ?></h1>
+        </div>
+    </section>
+
+    <section class="welcome-area">
         <div class="container">
             <h2 class="sucess-text">
                 <?php echo "Loged in successful. Welcome! {$_GET["fname"]}"; ?>
             </h2>
-        </div>
-        
+        </div>        
+    </section>
 
+</main>
+<!-- main end -->
 
-<!-- footer area start -->
-<footer class="reg-foot">
-        <div class="container">
-            <div class="footer-nav">
-                <ul>
-                    <li><a href="login-page.php">Log in</a></li>
-                    <li><a href="index.php">Sign up</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+<?php
+	include "assets/inc/footer-area.php";
+?>

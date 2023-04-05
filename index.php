@@ -13,7 +13,7 @@
 					<div class="left-column hero-section--myblog">
 						<h1 class="hero-heading">This is <span>MyBlog </span>to tell you <span>success</span> stories.</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum recusandae consequatur debitis laudantium, deserunt animi.</p>
-						<a class="button hero-btn" role="button">view blogs</a>
+						<a class="button hero-btn" role="button" href="blog.php">view blogs</a>
 					</div>
 					<div class="hero-section--myblog--img">
 						<img src="assets/images/section-img-hero.svg" alt="myblog hero image" class="section-img">

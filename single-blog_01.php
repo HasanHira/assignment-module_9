@@ -20,12 +20,20 @@
                 <img src="assets/images/single-blog-img_01.jpg" alt="computer">
             </div>
             <h2 class="primary-heading">Programming requires a unique set of skills</h2>
-            <div class="blog-article--info single-post">
+            <div class="blog-article--info single-blog-post">
                 <span class="post_datetime">
                     <?php 
                     date_default_timezone_set("Asia/Dhaka");
                     echo date("F j, Y, g:i a"); ?>
                 </span>
+                <div class="share-social-link">
+                    <p>Share: </p>
+                    <ul class="share-link" role="list">
+					<li><a href="https://www.linkedin.com/in/hasanhira/" aria-label="linkedin_link"><img src="assets/images/icon-linkedin.svg" alt="Linkedin icon"></a></li>
+					<li><a href="https://www.facebook.com/hz.hira" aria-label="facebook_link"><img src="assets/images/icon-facebook.svg" alt="Facebook icon"></a></li>
+					<li><a href="https://github.com/HasanHira" aria-label="github_link"><img src="assets/images/icon-github.svg" alt="Github icon"></a></li>
+				</ul>
+                </div>
             </div>
             <p>
                 Programming is the process of designing, coding, testing, and debugging software or applications. It is an essential skill in today's world, as it is used in many different industries and applications. Programming requires a unique set of skills, including logical thinking, problem-solving, and communication.
@@ -39,15 +47,25 @@
             <p>
                 Learning to program is not an easy task, and it requires a significant amount of time, effort, and dedication. However, there are many resources available to help people learn how to program, including online courses, tutorials, and books. With the right mindset and dedication, anyone can learn to program and open up a world of exciting opportunities.
             </p>
-            <div class="blog-article--info">
-                <span class="post_author_name">Hasan Hira </span>
-            </div>
+            <hr>
 
             <!-- single-post -->
-            <div class="blog-post">
-                <div class="even-columns">
-                <h2 class="primary-heading">Latest posts</h2>
-                    
+            <div class="post-author">
+                <h3 class="secondary-heading author-area-title">About author</h3>
+                <div>
+                    <div class="author-columns">
+                        <div class="author-image">
+                            <img src="assets/images/hasanhira-photo.jpg" alt="Myblog author">
+                        </div>
+                        <div class="author-details">
+                            <h3>Md Hasanuzzaman Hira</h3>
+                            <p>
+                                Having 8+ years of great experience in graphic design & 4+ years in web design, In graphic design I am the expert in Brand Identity, Editorial, Pictorial design & templates. Also, I have a level of expertise in HTML5, CSS3, jQuery plugins integration, Bootstrap, SCSS. I have served many companies and person local-market and online marketplaces.<br /><br />
+
+                                I am available for Consultancy, If you need I can share my best ideas about your Startup project and some tech insights before starting a project. From an eCommerce website to Blog, Business, Corporate, Portfolio, Startup you can just book a consultation with me to discuss further.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

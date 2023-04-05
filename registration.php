@@ -1,27 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Html Code blocks are navigation purpose only. -->
+<?php
+	$page_title = "Welcome Page";
+	include "assets/inc/header-area.php";
+?>
+
+<!-- main start -->
+<main>
+
+    <section class="page-head">
+        <div class="container">
+            <h1 class="hero-heading"><?php echo $page_title; ?></h1>
+        </div>
+    </section>
 
 <?php
     if($_SERVER["REQUEST_METHOD"] == "POST") {
         $fname = trim($_POST["fname"]);
-        $lname = trim($_POST["lname"]);
         $email = trim($_POST["email"]);
-        $password = trim($_POST["password"]);
-        $confirm_password = trim($_POST["confirm_password"]);
+        $subject = trim($_POST["subject"]);
+        $message = trim($_POST["message"]);
 
-        if(empty($fname) || empty($lname) || empty($email) || empty($password) || empty($confirm_password)) {
+        if(empty($fname) || empty($email) || empty($subject) || empty($message)) {
             echo "All fields are required and must not be empty.";
         } elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             echo "Invalid email format.";
-        } elseif($password != $confirm_password) {
-            echo "Passwords do not match.";
         } else {; ?>
 
         <div class="container">
@@ -32,7 +33,7 @@
             
         <?php
         }
-        $user_data = [$fname, $lname, $email, $password];
+        $user_data = [$fname, $email, $subject, $message];
         $fp = fopen('users.csv', 'a');
         fputcsv($fp, $user_data);
         fclose($fp);
@@ -40,16 +41,11 @@
 ?>
 
 
-<!-- footer area start -->
-<footer class="reg-foot">
-        <div class="container">
-            <div class="footer-nav">
-                <ul>
-                    <li><a href="login-page.php">Log in</a></li>
-                    <li><a href="index.php">Sign up</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+</section>
+
+</main>
+<!-- main end -->
+
+<?php
+	include "assets/inc/footer-area.php";
+?>
