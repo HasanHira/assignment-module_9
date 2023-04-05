@@ -59,7 +59,7 @@
 					<div class="even-columns single-post">
 						<div class="blog-media blog-media--02"></div>
 						<div class="blog-details">
-							<h3 class="blog-article--title">Programming requires a unique set of skills</h3>
+							<h3 class="blog-article--title">Robots can be divided into different categories based on their functions</h3>
 							<div class="blog-article--info">
 								<span class="post_datetime">
 									<?php 
@@ -69,7 +69,7 @@
 								<span class="post_author_name">Hasan Hira </span>
 							</div>
 							<p class="blog-article--text">
-								Programming is the process of designing, coding, testing, and debugging software or applications. It is an essential skill in today's world, as it is used in many different industries and applications.
+								Robotics is an interdisciplinary field of science and technology that involves designing, constructing, and operating robots. A robot is a machine that can be programmed to perform a wide range of tasks automatically.
 							</p>
 						</div>
 					</div>
@@ -80,7 +80,7 @@
 					<div class="even-columns single-post">
 						<div class="blog-media blog-media--03"></div>
 						<div class="blog-details">
-							<h3 class="blog-article--title">Programming requires a unique set of skills</h3>
+							<h3 class="blog-article--title">Music is a universal language that has the power to bring people together</h3>
 							<div class="blog-article--info">
 								<span class="post_datetime">
 									<?php 
@@ -90,7 +90,7 @@
 								<span class="post_author_name">Hasan Hira </span>
 							</div>
 							<p class="blog-article--text">
-								Programming is the process of designing, coding, testing, and debugging software or applications. It is an essential skill in today's world, as it is used in many different industries and applications.
+								Music is an art form that has been an integral part of human culture for centuries. It has the ability to express emotions, connect people from different backgrounds, and transcend language barriers.
 							</p>
 						</div>
 					</div>
