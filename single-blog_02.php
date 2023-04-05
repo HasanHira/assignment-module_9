@@ -17,7 +17,7 @@
     <section class="single-blog-post section-padding-60">
         <div class="container">
             <div class="single-blog-image">
-                <img src="assets/images/single-blog-img_01.jpg" alt="computer">
+                <img src="assets/images/single-blog-img_02.jpg" alt="computer">
             </div>
             <h2 class="primary-heading">Robots can be divided into different categories based on their functionss</h2>
             <div class="blog-article--info single-blog-post">

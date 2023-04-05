@@ -35,5 +35,8 @@ Please submit the following materials for grading:
 2. A written report detailing the design and implementation of your blog, including a description of any challenges you faced and how you overcame them.
 
 
-Mark online editor:
+Markdown online editor:
 https://markdownlivepreview.com/
+
+Online Image host:
+https://img.doerig.dev/

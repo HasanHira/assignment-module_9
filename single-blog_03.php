@@ -17,7 +17,7 @@
     <section class="single-blog-post section-padding-60">
         <div class="container">
             <div class="single-blog-image">
-                <img src="assets/images/single-blog-img_01.jpg" alt="computer">
+                <img src="assets/images/single-blog-img_03.jpg" alt="computer">
             </div>
             <h2 class="primary-heading">Music is a universal language that has the power to bring people together</h2>
             <div class="blog-article--info single-blog-post">
