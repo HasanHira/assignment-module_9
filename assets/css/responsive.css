@@ -79,33 +79,6 @@
     .side-bar {
         padding: 6.5em 1em;
     }
-    .search-heading {
-        font-size: 1.5rem;
-        color: hsl( var(--accent-color-900));
-        margin-top: 1em;
-    }
-    ul.categories {
-        margin: 0;
-        padding: 0;
-    }
-    ul.categories li {
-        list-style: none;
-        margin-block: 0.35em;
-        padding-bottom: 0.35em;
-        border-bottom: 1px solid hsl( var(--neutral-color-400), 0.3);
-    }
-    ul.categories li:last-child {
-        border: none;
-    }
-    ul.categories li a {
-        text-decoration: none;
-        color: hsl( var(--neutral-color-400));
-        transition: all 0.3s ease-in-out;
-    }
-    ul.categories li a:focus,
-    ul.categories li a:hover {
-        color: hsl( var(--accent-color-400))
-    }
 }
 
 
